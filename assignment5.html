@@ -1,0 +1,55 @@
+<html>
+   <head>
+    <title>Assignment Five-Forms</title>
+   </head> 
+   <body>
+    <h1>IT CONSULTANT APPLICATION FORM</h1>
+
+    <!-- Html forms are used to collect user data and store the same data inside of a Database. Forms in html are introduced by use of form tag elements. To have a partition inside of a the form we use the field tag element. To label /give a heading to the partition we use the legend tag element. A form uses diffent input types to collect the user data i.e text, email, password, dates,files.   -->
+
+    <form>
+        <i>Please make siure you fill out the form below*</i>
+     <fieldset>
+        <!-- first partition starts here -->
+        <legend>Contact details</legend>
+
+        <input type="text" placeholder="Enter name"><br><br>
+
+        <input type="number" placeholder="Enter telephone number"><br><br>
+
+        <input type="email" placeholder="Enter Email"><br>
+     </fieldset>  
+      <!--first partition ends here  -->
+      <!-- second partition starts here -->
+       <fieldset>
+        <legend>PERSONAL DETAILS</legend><br>
+        <input type="number" placeholder="Your age"><br><br>
+
+        <label >Gender</label><br>
+        <select>
+            <option value="0">Choose Gender</option>
+            <option value="1">Male</option>
+            <option value="2Female"></option>
+        </select><br><br>
+        
+
+        <label>What gave you the motivation to apply</label> <br>
+        <textarea rows="3"></textarea>
+
+       </fieldset>
+       <!-- second partition ends here -->
+        <!-- start of third partion -->
+        <fieldset>
+            <LEgend>PICK YOUR FAVOURITE LANGUAGE</LEgend><br>
+            <label>JAVA</label>
+            <input type="checkbox"> 
+            <label >HTML</label>
+            <input type="checkbox">
+            <Label>SQL</Label>
+            <input type="checkbox">
+        </fieldset><br>
+        <!-- end of third partion -->
+         <input type="submit">
+    </form>
+   </body>
+</html
